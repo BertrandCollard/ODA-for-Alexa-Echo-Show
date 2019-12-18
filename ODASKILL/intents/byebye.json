@@ -1,0 +1,24 @@
+{
+  "name" : "byebye",
+  "type" : "NLPIntent",
+  "intentParameters" : [ ],
+  "exampleData" : [ {
+    "sentence" : "au revoir",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "tchao",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "bye",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "goodbye",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "bye bye",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "no thanks bye",
+    "exampleEntities" : [ ]
+  } ]
+}

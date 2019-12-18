@@ -1,0 +1,24 @@
+{
+  "name" : "energy_bill_fr",
+  "type" : "NLPIntent",
+  "intentParameters" : [ ],
+  "exampleData" : [ {
+    "sentence" : "Facture d'électricité",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "Quelle est ma dernière facture d'électricité",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "Quel est le montant de ma facture d'électricité",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "facture d'énergie",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "Companie d'Electricité",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "Alexa, quel est le montant de ma facture d'energie",
+    "exampleEntities" : [ ]
+  } ]
+}

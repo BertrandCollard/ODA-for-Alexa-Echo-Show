@@ -1,0 +1,15 @@
+{
+  "name" : "bill_compare_fr",
+  "type" : "NLPIntent",
+  "intentParameters" : [ ],
+  "exampleData" : [ {
+    "sentence" : "pourquoi mes factures sont différentes",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "explique moi les différences",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "quelles sont les différences",
+    "exampleEntities" : [ ]
+  } ]
+}

@@ -1,0 +1,8 @@
+{
+  "invocationName" : "ODA_SKILL",
+  "shortDescription" : "This is ODA_SKILL",
+  "fullDescription" : null,
+  "sampleInvocations" : [ "An example utterance" ],
+  "skillBotName" : "ODA_SKILL",
+  "skillBotVersion" : "1.0"
+}

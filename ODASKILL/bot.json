@@ -1,0 +1,8 @@
+{
+  "type" : "USER",
+  "name" : "ODA_SKILL",
+  "displayName" : "ODA_SKILL",
+  "version" : "1.0",
+  "intentTrainer" : "Sakura",
+  "trainingModels" : [ ]
+}

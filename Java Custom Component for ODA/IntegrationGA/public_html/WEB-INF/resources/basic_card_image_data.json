@@ -1,0 +1,37 @@
+{
+    "bodyTemplate2Data" : {
+        "type" : "object",
+        "objectId" : "bt2Sample",
+        "backgroundImage" : {
+            "contentDescription" : null,
+            "smallSourceUrl" : null,
+            "largeSourceUrl" : null,
+            "sources": [
+                {
+                    "url": "https://www.dropbox.com/s/9owjjoudictsobw/masque_euw19.png?dl=1",
+                    "size": "small",
+                    "widthPixels": 0,
+                    "heightPixels": 0
+                },
+                {
+                    "url": "https://www.dropbox.com/s/9owjjoudictsobw/masque_euw19.png?dl=1",
+                    "size": "large",
+                    "widthPixels": 0,
+                    "heightPixels": 0
+                }
+            ]
+        },
+        "textContent" : {
+            "title" : {
+                "type" : "PlainText",
+                "text" : "__TITLE__"
+            },
+            "primaryText" : {
+                "type" : "PlainText",
+                "text" : "__TEXT__"
+            }
+        },
+        "image" : "__IMAGE__",
+        "logoUrl" : "http://simplybusiness-solutions.com/mastersimplebusinesssolution/page/180905122230_PAGE.png"
+    }
+}

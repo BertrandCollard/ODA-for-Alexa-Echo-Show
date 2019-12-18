@@ -1,0 +1,21 @@
+{
+  "name" : "peak_signup",
+  "type" : "NLPIntent",
+  "intentParameters" : [ ],
+  "exampleData" : [ {
+    "sentence" : "signup for peak program",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "sign up for rewards program",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "sign up for peak  rewards program",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "sign up for rewards",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "sign me up for peak rewards",
+    "exampleEntities" : [ ]
+  } ]
+}

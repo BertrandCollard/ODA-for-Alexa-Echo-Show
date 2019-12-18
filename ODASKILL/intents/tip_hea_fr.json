@@ -1,0 +1,15 @@
+{
+  "name" : "tip_hea_fr",
+  "type" : "NLPIntent",
+  "intentParameters" : [ ],
+  "exampleData" : [ {
+    "sentence" : "que puis-je faire avec l'audit énergétique de ma résidence",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "parlez-moi de l'audit énergétique de mon domicile",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "parlez-moi de l'audit",
+    "exampleEntities" : [ ]
+  } ]
+}

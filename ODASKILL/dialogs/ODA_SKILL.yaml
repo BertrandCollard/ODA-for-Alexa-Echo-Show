@@ -1,0 +1,215 @@
+#metadata: information about the flow
+#  platformVersion: the version of the bots platform that this flow was written to work with 
+metadata:
+  platformVersion: "1.0"
+main: true
+name: UGBU_EUW19
+#context: Define the variables which will used throughout the dialog flow here.
+context:
+  variables:
+    iResult: nlpresult
+    #The syntax for defining the variables is variablename: "variableType".
+    # The "variableType" can be defined as a primitive type ("string", "boolean", "int", "float", "double"), "list", "map", "resourcebundle", or an entity name. A variable can also hold the results returned by the Intent Engine. For these variables, the "variableType" must be "nlpresult" (for example, iResult: "nlpresult").
+    greeting: string
+    name: string
+    rb: resourcebundle
+    billId: string
+    paymentBillAmount: CURRENCY
+    ctx_bill_amount: string
+    __variable__: string
+#states is where you can define the various states within your flow.
+# The syntax for defining a state is
+# statename:
+#   component:Specify the component you want to use. This can be either a Built-In or custom component.
+#   properties:
+#     property1: "value" (These are the properties to the specified component
+#   transitions: You can specify one of the following four
+#     next: Specify the state you want to execute next after this state. By default it will execute the state specified after this
+#     error: Specify the state you want to execute in case the component encounters any error in execution.
+#     actions: You can handle various actions returned by the components here the syntax is actionName: "statename"
+#        action1: state1
+#     return: "done" You can exit the flow using the return statement
+states:
+  setTagToLocale1:
+    component: "System.SetVariable"
+    properties:
+      variable: profile.languageTag
+      value: "en-US"
+    transitions: {}  
+  setTagToLocale2:
+    component: "System.SetVariable"
+    properties:
+      variable: profile.locale
+      value: "en-US"
+    transitions: {}      
+  Intent:
+    component: System.Intent
+    properties:
+      variable: iResult
+      optionsPrompt: "${rb('MakeAChoice')}"
+      translate: false
+    transitions:
+      actions:
+        unresolvedIntent: Unresolved
+        welcome: welcome
+        byebye: byebye
+        upcoming_bills: upcoming_bills
+        energy_bill: energy_bill
+        bill_compare: nudges.different
+        bill_pay: bill_pay
+        tips: tips
+        tip_hea: tip_hea
+        tip_tstat: tip_tstat
+        tip_peak: tip_peak
+        tip_ev: tip_ev
+        
+  Unresolved:
+    component: System.CommonResponse
+    properties:
+      metadata:
+        responseItems:
+          - type: text
+            text: "${rb('NotAnHumain')}"
+            name: Sorry
+            separateBubbles: true
+    transitions:
+      return: done
+      
+  byebye:
+    component: "System.Output"
+    properties:
+     text: "${rb('byebye')}"
+    transitions:
+      next: "resetVar"
+      
+  welcome:
+    component: welcome
+    properties:
+      locale: "${profile.locale}"
+    transitions:
+      return: "done"
+      
+  resetVar:
+    component: "System.ResetVariables"
+    properties:
+      variableList: "iResult, greeting, name, rb, billId, paymentBillAmount, __variable__"
+    transitions:
+      return: "done"
+      
+  upcoming_bills:
+    component: upcoming_bills
+    transitions:
+      next: "Intent"
+      
+  energy_bill:
+    component: energy_bill
+    properties:
+      __variable__: "${billId}"
+      keepTurn: true
+    transitions:
+      actions:
+        NONE: DefaultErrorHandler
+        nudges.pay: nudges.pay
+        nudges.different: nudges.different
+        textReceived: Intent
+        
+  nudges.different:
+    component: bill_compare
+    properties:
+      __variable__: "${ctx_bill_amount}"
+      keepTurn: true
+    transitions:
+      actions:
+        NONE: DefaultErrorHandler
+        nudges.pay: nudges.pay
+        nudges.save: nudges.save
+        textReceived: Intent
+        
+  bill_pay:
+    component: "System.SetVariable"
+    properties:
+      variable: "paymentBillAmount"
+      value: "${iResult.value.entityMatches['CURRENCY'][0].amount}"
+    transitions: {}
+    
+  nudges.pay:
+    component: "System.ConditionEquals"
+    properties:
+     variable: "paymentBillAmount"
+     value: null
+    transitions:
+      actions:
+        equal: "setPaymentBillAmount"
+        notequal: "nudges.pay.verif_variable"
+  
+  setPaymentBillAmount:
+    component: "System.SetVariable"
+    properties:
+      variable: "paymentBillAmount"
+      value: "${ctx_bill_amount}"
+    transitions: {}
+    
+  nudges.pay.verif_variable:
+    component: "System.ConditionEquals"
+    properties:
+     variable: "ctx_bill_amount"
+     value: null
+    transitions:
+      actions:
+        equal: "needParameters"
+        notequal: "nudges.pay.go" 
+        
+  needParameters:
+    component: System.Output
+    properties:
+      text: "${rb('needParameters')}"
+    transitions:
+      return: "done"
+      
+  nudges.pay.go:
+    component: bill_pay
+    properties:
+      param_pay_amount: "${paymentBillAmount}"
+      ctx_bill_amount: "${ctx_bill_amount}"
+      keepTurn: true
+    transitions:
+      actions:
+        NONE: Intent
+        textReceived: Intent
+      
+  nudges.save:
+    component: tips
+    transitions:
+      next: "resetVar"
+      
+  tips:
+    component: tips
+    transitions:
+      next: "resetVar"
+      
+  tip_hea:
+    component: tip_hea
+    transitions:
+      next: "resetVar"
+      
+  tip_tstat:
+    component: tip_tstat
+    transitions:
+      next: "resetVar"
+      
+  tip_ev:
+    component: tip_ev
+    transitions:
+      next: "resetVar"
+      
+  tip_peak:
+    component: tip_peak
+    transitions:
+      next: "resetVar"
+      
+  DefaultErrorHandler:
+    component: System.Output
+    properties:
+      text: "Unexpected error occurred, please contact the helpdesk"
+    transitions:
+      return: "done"

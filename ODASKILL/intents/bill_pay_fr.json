@@ -1,0 +1,18 @@
+{
+  "name" : "bill_pay_fr",
+  "type" : "NLPIntent",
+  "intentParameters" : [ ],
+  "exampleData" : [ {
+    "sentence" : "payer mes factures",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "je veux payer ma facture",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "oui je veux payer",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "ok je paye",
+    "exampleEntities" : [ ]
+  } ]
+}

@@ -1,0 +1,33 @@
+{
+  "name" : "energy_bill",
+  "type" : "NLPIntent",
+  "intentParameters" : [ ],
+  "exampleData" : [ {
+    "sentence" : "utility company bill",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "utility company",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "energy bill",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "show my energy bill",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "Utility Co bill",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "Alexa, what's my energy bill?",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "Utility Co",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "what's my energy bill?",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "show my electric bill",
+    "exampleEntities" : [ ]
+  } ]
+}

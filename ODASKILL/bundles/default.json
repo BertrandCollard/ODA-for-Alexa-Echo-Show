@@ -1,0 +1,74 @@
+{
+  "languageTag" : "default",
+  "keys" : {
+    "needParameters" : {
+      "message" : "Cannot process action, need more informations"
+    },
+    "system.intent.tip_hea_fr.conversationName" : {
+      "message" : "tip_hea_fr"
+    },
+    "system.intent.bill_pay_fr.conversationName" : {
+      "message" : "bill_pay_fr"
+    },
+    "system.intent.upcoming_bills_fr.conversationName" : {
+      "message" : "upcoming_bills_fr"
+    },
+    "byebye" : {
+      "message" : "See you soon"
+    },
+    "system.intent.bill_pay.conversationName" : {
+      "message" : "bill_pay"
+    },
+    "system.intent.bill_compare.conversationName" : {
+      "message" : "bill_compare"
+    },
+    "MakeAChoice" : {
+      "message" : "Please select your choice according to this items:"
+    },
+    "system.intent.welcome_fr.conversationName" : {
+      "message" : "welcome_fr"
+    },
+    "system.intent.welcome.conversationName" : {
+      "message" : "welcome"
+    },
+    "NotAnHumain" : {
+      "message" : "I'm sorry, I don't understand, I'm not an humain"
+    },
+    "system.intent.energy_bill.conversationName" : {
+      "message" : "energy_bill"
+    },
+    "system.intent.peak_signup_fr.conversationName" : {
+      "message" : "peak_signup_fr"
+    },
+    "system.intent.upcoming_bills.conversationName" : {
+      "message" : "upcoming_bills"
+    },
+    "system.intent.byebye.conversationName" : {
+      "message" : "byebye"
+    },
+    "system.intent.tip_hea.conversationName" : {
+      "message" : "tip_hea"
+    },
+    "system.intent.tip_peak.conversationName" : {
+      "message" : "tip_peak"
+    },
+    "system.intent.peak_signup.conversationName" : {
+      "message" : "peak_signup"
+    },
+    "system.intent.tip_ev.conversationName" : {
+      "message" : "tip_ev"
+    },
+    "system.intent.bill_compare_fr.conversationName" : {
+      "message" : "bill_compare_fr"
+    },
+    "system.intent.energy_bill_fr.conversationName" : {
+      "message" : "energy_bill_fr"
+    },
+    "system.intent.tips.conversationName" : {
+      "message" : "tips"
+    },
+    "system.intent.tip_tstat.conversationName" : {
+      "message" : "tip_tstat"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name" : "welcome",
+  "type" : "NLPIntent",
+  "intentParameters" : [ ],
+  "exampleData" : [ {
+    "sentence" : "heya",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "howdy",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "hello hi",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "greetings",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "hey there",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "hello",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "just going to say hi",
+    "exampleEntities" : [ ]
+  } ]
+}

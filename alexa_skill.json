@@ -1,0 +1,146 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "oracle for utilities",
+            "intents": [
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": [
+                        "bye",
+                        "tchao"
+                    ]
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": [
+                        "cancel"
+                    ]
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": [
+                        "help me"
+                    ]
+                },
+                {
+                    "name": "CommandBot",
+                    "slots": [
+                        {
+                            "name": "command",
+                            "type": "ANYTHING"
+                        }
+                    ],
+                    "samples": [
+                        "{command} "
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                }
+            ],
+            "types": [
+                {
+                    "name": "ANYTHING",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "hey"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "hey hey"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "hey hey hey"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "hey hey hey hey"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "hey hey hey hey hey"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "hey hey hey hey hey hey"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "hey hey hey hey hey hey hey"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "hey hey hey hey hey hey hey hey"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "hey hey hey hey hey hey hey hey hey"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "hey hey hey hey hey hey hey hey hey hey"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "hey hey hey hey hey hey hey hey hey hey hey"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "hey hey hey hey hey hey hey hey hey hey hey hey"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "hey hey hey hey hey hey hey hey hey hey hey hey hey"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "hey hey hey hey hey hey hey hey hey hey hey hey hey hey"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey hey"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

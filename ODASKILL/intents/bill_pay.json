@@ -1,0 +1,40 @@
+{
+  "name" : "bill_pay",
+  "type" : "NLPIntent",
+  "intentParameters" : [ {
+    "name" : "CURRENCY",
+    "required" : true,
+    "entity" : "CURRENCY"
+  } ],
+  "exampleData" : [ {
+    "sentence" : "please, pay 15 dollars on my bill",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "ok, pay 150 dollars from my account",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "yes,  pay 10 dollars",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "ok, pay 50 dollars from my saving account",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "yes, pay 20 dollars towards my energy bill",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "could you please pay 40 dollars towards my energy bill",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "could you pay 10 dollars",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "please, pay 35 dollars",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "yes, pay 30 dollars from my checking account",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "pay 10 dollars from my account",
+    "exampleEntities" : [ ]
+  } ]
+}

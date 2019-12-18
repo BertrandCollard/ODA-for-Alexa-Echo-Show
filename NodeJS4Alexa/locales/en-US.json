@@ -1,0 +1,13 @@
+{
+	"WelcomeToBot": "Welcome to Oracle Utilities Bot",
+	"WelcomeToBotCard": "This is a card sample",
+	"InvalidApplicationId": "The application ID is invalid",
+	"You have %s message": {
+		"one": "You have %s message",
+		"other": "You have %s messages"
+	},
+	"hello": "hello",
+	"Failed_sending_message_to_Bot":"Failed sending message to bot, please review your configuration.",
+	"Dont_understand":"I don't understand. Could you please repeat what you want?",
+	"bye": "bye"
+}

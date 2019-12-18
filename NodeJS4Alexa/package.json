@@ -1,0 +1,27 @@
+{
+  "name": "bots_samples_alexa_ugbu",
+  "version": "0.1.0",
+  "description": "Oracle Bots Nodejs for UGBU",
+  "author": "Oracle Bertrand Collard",
+  "license": "ISC",
+  "repository": {},
+  "main": "index.js",
+  "dependencies": {
+    "@hapi/joi": "^14.3.1",
+    "@oracle/bots-node-sdk": "2.0.6",
+    "alexa-app": "^4.2.3",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "i18n": "^0.8.4",
+    "path": "^0.12.7",
+    "pubsub-js": "^1.7.0",
+    "underscore": "^1.9.1",
+    "util": "^0.10.4"
+  },
+  "devDependencies": {
+    "mocha": "^6.2.2",
+    "request": "^2.88.0",
+    "sinon": "^4.1.2",
+    "supertest": "^2.0.0"
+  }
+}

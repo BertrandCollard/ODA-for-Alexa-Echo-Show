@@ -1,0 +1,15 @@
+{
+  "name" : "tip_peak",
+  "type" : "NLPIntent",
+  "intentParameters" : [ ],
+  "exampleData" : [ {
+    "sentence" : "tell me about rewards programs",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "what are peak rewards days",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "tell me about peak reward days",
+    "exampleEntities" : [ ]
+  } ]
+}

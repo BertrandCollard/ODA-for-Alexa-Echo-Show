@@ -1,0 +1,121 @@
+welcome.prompt = Hello %s!
+welcome.message = how can I help you today?
+welcome.alert = Alert!
+ 
+ 
+ 
+status.outage = We are working on the outage in your area.
+status.restore = Power is expected to be restored in %d mins.
+status.dnp_after=Your service has been disconnected. Please pay %s at earliest to reconnect your service.
+status.dnp_before=Your account has past due balance of %s. Please pay before %s to avoid any disruption to your service.
+status.gasleak = We have noticed an unusual sustained gas consumption on your account. This could indicate gas leak at your property. Please contact your plumber to take appropriate action.
+status.waterleak = There might potentially be an water leak at your property. Please contact your plumber as soon as possible.
+status.peakday = Tomorrow is a Peak Rewards Day. Reduce your energy consumption from 2:00pm to 7:00pm to earn rewards.
+ 
+upcoming.text=I found 2 upcoming bills, one from Bank of America and one from Utility Co. 
+upcoming.bank=Bank of America 
+upcoming.utility=Utility Co.
+upcoming.title = Upcoming Bills
+
+bill.text=The energy bill is %s and is due on %s Your bill is higher than usual for this time of year. Would you like to pay your bill or find out why it is different this year?
+bill.prev = Prev balance
+bill.cur = Current bill
+bill.pay = Payments
+bill.due = Amount due
+bill.date = Due Date : %s
+bill.high = Your bill is higher than typical bill this month.
+bill.select = Select
+
+compare.text=It looks like  you may have purchased an electric vehicle recently, and that was a factor in your higher bill. Would you like to pay your bill now, using your checking account or find ways to save?
+compare.why = Why your bill is higher
+compare.same = ≃
+compare.ev = Electric Vehicle
+compare.high = Higher
+compare.weather = Weather
+compare.period = Bill Period
+
+pay.text = Done. %s paid from your checking account, towards your bill.
+pay.auto =  Would you like to automatically pay your bill going forward?
+pay.save = Would you like to hear some ways to save on your next months energy bill?
+pay.paid = Bill Paid
+pay.acct = Checking account : 
+pay.conf = Confirmation number: %s Email sent to your gmail.com address.
+
+autopay.done = Done. Your bill will be paid automatically from your checking account. 
+autopay.already = You are already signed up for autopay. 
+autopay.highbill = Do you want to be notified of unusually high bills?
+autopay.title = Autopay
+autopay.conf = You are signed up for autopay using your checking account: 
+autopay.explain = Your bill be automatically paid on the due date.
+
+highbill.done  = Done. You will be notified via your email in case your bills are unusually high.
+highbill.already = You are already signed up for high bill alerts.
+highbill.title = High Bill
+highbill.conf =  You are signed up!
+highbill.explain = You  will be notified of any unusually high bills  on: 
+highbill.already2 = You are already signed up for high bill alerts via your gmail address.
+
+peak.done  = Done. You will be notified via your email of next Peak Rewards Day.
+peak.already = You are already enrolled. You will be notified via your email of next Peak Rewards Day.
+peak.title = Peak Rewards Days
+peak.conf =  You are signed up!
+peak.explain = You will be notified of upcoming Peak Rewards Days via email to your gmail  address. 
+peak.already2 = You are already signed up!
+
+hea.online = Please go online for setting up an Home Energy Audit.
+hea.shed1 = Does next Friday %s work ?
+hea.shed2 = Does next Friday %s or %s work ?
+hea.done = Your appointment is scheduled for %s on %s.
+hea.err = Cannot schedule  your appointment at this time, please try again later.
+hea.title = Home Energy Audit
+hea.remind = We will send you a reminder the day before.
+hea.err2 =Please call us at 1-800-utilcos to set up Home Energy Audit.
+
+tstat.text = your thermostat's target temperature� is now set to  %s degrees
+tstat.err = Cannot communicate with your thermostat. Please set it  manually.
+
+tips.text = To save on your next bill, these are the best things you can do: Get your home professionally audited, Adjust your thermostat schedule or Sign up for Peak Rewards Program. Would you like to hear more about one of these actions?
+tips.peak.title = Sign up for peak rewards program
+tips.peak.save = Save up to $50 a year
+tips.hea.title = Schedule an professional Home Energy Audit
+tips.hea.save = Save up to $60 a year
+tips.ststat.title = Set your thermostat to 78F in the summer
+tips.ststat.save = Save up to $60 a year
+tips.wtstat.title = Set your thermostat to 68 F in the winter
+tips.wtstat.save =Save up to $60 a year
+tips.title =  Ways to Save
+
+tip.ststat.current = Your thermostat is set to %d degrees, 
+tip.ststat.raise = Raise temperature
+tip.ststat.explain = To save on your next bill, you can raise the temperature by a few degrees. Would you like to do that?
+tip.ststat.already = You are already saving on your energy bill.
+tip.ststat.current2= Your thermostat is currently set to %d degrees. To save  on your next bill, you can schedule your thermostat to be set a few degrees higher  during this time.
+tip.ststat.already2= You are already saving on your bill. Your thermostat is set to %d.
+tip.ststat.title = Thermostat
+
+tip.wtstat.current = Your thermostat is set to %d degrees, 
+tip.wtstat.lower = Lower temperature
+tip.wtstat.explain = To save on your next bill, you can reduce the temperature by a few degrees. Would you like to do that?
+tip.wtstat.already = You are already saving on your energy bill.
+tip.wtstat.current2= Your thermostat is currently set to %d degrees. To save  on your next bill, you can schedule your thermostat to be set a few degrees lower  during this time.
+tip.wtstat.already2= You are already saving on your bill. Your thermostat is set to %d.
+tip.wtstat.title = Thermostat
+
+tip.ev.text = Plan ahead and fully charge your electric vehicle overnight. Remember to unplug your electric vehicle during peak hours. If your electric vehicle model allows you to schedule charging, make sure to set it to charge during off-peak hours.
+tip.hea.text= �An Energy Advisor will do a no-cost home energy audit and� provide you with tailor-made recommendations. You choose the upgrades, work with an installation contractor of your choice, and get instant rebates up to $7,500. Do you want to sign up now ?
+tip.hea.title= Home Energy Audit
+tip.hea.desc= **Audit**  Certified auditors  take 2-3 hrs for the audit.  \n**Report**  Provide and discuss details of the audit results.  \n**Rebates** Hightlight the relevant rebates that will save you money.
+tip.hea.save= Save up to 30% on your bill and get upto $7,500 in rebates.
+
+tip.peak.text= Peak  Rewards Days are scheduled when the demand for energy is expected to be particularly high. You'll receive a  email or text, usually the day before. Simply use less energy between 2 pm - 7 pm and rewards show up on your next bill. Would you like to signup ? 
+tip.peak.title= Peak Rewards
+tip.peak.desc= **Notification** We will notify you of peak days by email or sms the day before.  \n**Save Energy**  Simply reduce your energy use between 2pm-7pm on Peak Reward Days.  \n**Rewards**      We notify you of the rewards earned the next day and they show up on your next bill.
+tip.peak.save= Peak  Rewards Days occur when the demand for energy is expected to be high.
+
+nudges.pay = Pay my bill
+nudges.different = See why it's different
+nudges.save = See ways to save
+nudges.autopay = Sign up for autopay
+nudges.highbill = High bill alerts
+nudges.audit = Schedule  audit
+nudges.peak = Signup for peak program

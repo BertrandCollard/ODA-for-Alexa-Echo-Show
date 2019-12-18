@@ -1,0 +1,27 @@
+{
+  "name" : "bill_compare",
+  "type" : "NLPIntent",
+  "intentParameters" : [ ],
+  "exampleData" : [ {
+    "sentence" : "what are differences",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "Compare my bills",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "See why it's different",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "Yes, compare my bills",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "See why it's different Compare my bills",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "Find out why it's different.",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "Compare",
+    "exampleEntities" : [ ]
+  } ]
+}

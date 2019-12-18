@@ -1,0 +1,12 @@
+{
+  "type" : "CUSTOM",
+  "name" : "C2M_CustomComponents",
+  "version" : "1.1",
+  "url" : "http://130.61.121.250/IntegrationGA/rest/alexa/services",
+  "headers" : [ ],
+  "credentials" : {
+    "type" : "basic",
+    "username" : "x"
+  },
+  "enabled" : true
+}

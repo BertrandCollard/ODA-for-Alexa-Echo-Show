@@ -1,0 +1,12 @@
+{
+  "name" : "welcome_fr",
+  "type" : "NLPIntent",
+  "intentParameters" : [ ],
+  "exampleData" : [ {
+    "sentence" : "salut",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "bonjour",
+    "exampleEntities" : [ ]
+  } ]
+}

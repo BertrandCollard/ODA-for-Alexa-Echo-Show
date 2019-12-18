@@ -1,0 +1,112 @@
+{
+    "listTemplate1Metadata": {
+        "type": "object",
+        "objectId": "lt1Metadata",
+        "backgroundImage": {
+            "contentDescription": null,
+            "smallSourceUrl": null,
+            "largeSourceUrl": null,
+            "sources": [
+                {
+                    "url": "https://www.dropbox.com/s/9owjjoudictsobw/masque_euw19.png?dl=1",
+                    "size": "small",
+                    "widthPixels": 0,
+                    "heightPixels": 0
+                },
+                {
+                    "url": "https://www.dropbox.com/s/9owjjoudictsobw/masque_euw19.png?dl=1",
+                    "size": "large",
+                    "widthPixels": 0,
+                    "heightPixels": 0
+                }
+            ]
+        },
+        "title": "__TITLE__",
+        "logoUrl": "http://simplybusiness-solutions.com/mastersimplebusinesssolution/page/180905122230_PAGE.png"
+    },
+    "listTemplate1ListData": {
+        "type": "list",
+        "listId": "lt1Sample",
+        "totalNumberOfItems": 10,
+        "listPage": {
+            "listItems": [
+                {
+                    "listItemIdentifier": "boa",
+                    "ordinalNumber": 1,
+                    "textContent": {
+                        "primaryText": {
+                            "type": "PlainText",
+                            "text": "__BILL1__"
+                        },
+                        "secondaryText": {
+                            "type": "PlainText",
+                            "text": "...6417"
+                        },
+                        "tertiaryText": {
+                            "type": "PlainText",
+                            "text": ""
+                        }
+                    },
+                    "image": {
+                        "contentDescription": null,
+                        "smallSourceUrl": null,
+                        "largeSourceUrl": null,
+                        "sources": [
+                            {
+                                "url": "https://fidoalliance.org/wp-content/uploads/bankofamerica.png",
+                                "size": "small",
+                                "widthPixels": 0,
+                                "heightPixels": 0
+                            },
+                            {
+                                "url": "https://fidoalliance.org/wp-content/uploads/bankofamerica.png",
+                                "size": "large",
+                                "widthPixels": 0,
+                                "heightPixels": 0
+                            }
+                        ]
+                    },
+                    "token": "boa"
+                },
+                {
+                    "listItemIdentifier": "bill",
+                    "ordinalNumber": 2,
+                    "textContent": {
+                        "primaryText": {
+                            "type": "PlainText",
+                            "text": "__BILL2__"
+                        },
+                        "secondaryText": {
+                            "type": "RichText",
+                            "text": "...3462"
+                        },
+                        "tertiaryText": {
+                            "type": "PlainText",
+                            "text": ""
+                        }
+                    },
+                    "image": {
+                        "contentDescription": null,
+                        "smallSourceUrl": null,
+                        "largeSourceUrl": null,
+                        "sources": [
+                            {
+                                "url": "https://s3.amazonaws.com/cbalane-ihd-demo/assets/utilityco_logo_192x192.png?v=4",
+                                "size": "small",
+                                "widthPixels": 0,
+                                "heightPixels": 0
+                            },
+                            {
+                                "url": "https://s3.amazonaws.com/cbalane-ihd-demo/assets/utilityco_logo_192x192.png?v=4",
+                                "size": "large",
+                                "widthPixels": 0,
+                                "heightPixels": 0
+                            }
+                        ]
+                    },
+                    "token": "bill"
+                }
+            ]
+        }
+    }
+}

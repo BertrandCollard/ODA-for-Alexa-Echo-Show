@@ -1,0 +1,15 @@
+{
+  "name" : "tip_tstat",
+  "type" : "NLPIntent",
+  "intentParameters" : [ ],
+  "exampleData" : [ {
+    "sentence" : "Tell me what can I do with my thermostat",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "what can I do with my thermostat",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "Thermostat tips",
+    "exampleEntities" : [ ]
+  } ]
+}

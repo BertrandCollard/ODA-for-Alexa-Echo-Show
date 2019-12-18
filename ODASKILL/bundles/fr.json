@@ -1,0 +1,35 @@
+{
+  "languageTag" : "fr",
+  "keys" : {
+    "system.intent.bill_pay.conversationName" : {
+      "message" : "bill_pay_fr"
+    },
+    "system.intent.bill_compare.conversationName" : {
+      "message" : "bill_compare_fr"
+    },
+    "system.intent.upcoming_bills.conversationName" : {
+      "message" : "upcoming_bills_fr"
+    },
+    "system.intent.welcome.conversationName" : {
+      "message" : "welcome_fr"
+    },
+    "MakeAChoice" : {
+      "message" : "Faites votre choix dans la liste ci-dessous:"
+    },
+    "needParameters" : {
+      "message" : "Impossible d'effectuer l'action demandée, il manque des informations"
+    },
+    "system.intent.tip_hea.conversationName" : {
+      "message" : "tip_hea_fr"
+    },
+    "system.intent.energy_bill.conversationName" : {
+      "message" : "energy_bill_fr"
+    },
+    "NotAnHumain" : {
+      "message" : "Désolé, je ne vous comprends pas, je ne suis pas un humain. Merci de reformuler votre question."
+    },
+    "byebye" : {
+      "message" : "A bientôt"
+    }
+  }
+}

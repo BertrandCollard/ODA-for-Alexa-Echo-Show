@@ -1,0 +1,21 @@
+{
+  "name" : "peak_signup_fr",
+  "type" : "NLPIntent",
+  "intentParameters" : [ ],
+  "exampleData" : [ {
+    "sentence" : "inscription au programme EJP",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "inscrivez-moi au programme de récompense",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "inscrivez moi au programme d'effacement de jour de pointe",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "inscrivez moi au programme de fidélisation",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "inscription au programme d'effacement de jour de pointe",
+    "exampleEntities" : [ ]
+  } ]
+}

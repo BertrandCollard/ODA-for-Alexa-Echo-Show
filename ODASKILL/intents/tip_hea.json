@@ -1,0 +1,15 @@
+{
+  "name" : "tip_hea",
+  "type" : "NLPIntent",
+  "intentParameters" : [ ],
+  "exampleData" : [ {
+    "sentence" : "tell me about audit",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "tell me about home energy audit",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "what can i do with home energy audit",
+    "exampleEntities" : [ ]
+  } ]
+}

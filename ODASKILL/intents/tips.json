@@ -1,0 +1,12 @@
+{
+  "name" : "tips",
+  "type" : "NLPIntent",
+  "intentParameters" : [ ],
+  "exampleData" : [ {
+    "sentence" : "See ways to save",
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "Sure, what are some ways to save?",
+    "exampleEntities" : [ ]
+  } ]
+}
