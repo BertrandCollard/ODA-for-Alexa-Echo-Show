@@ -15,7 +15,7 @@
     "i18n": "^0.8.4",
     "path": "^0.12.7",
     "pubsub-js": "^1.7.0",
-    "underscore": "^1.9.1",
+    "underscore": "^1.12.1",
     "util": "^0.10.4"
   },
   "devDependencies": {
